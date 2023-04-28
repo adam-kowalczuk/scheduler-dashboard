@@ -13,6 +13,8 @@ import {
   getInterviewsPerDay
 } from "helpers/selectors";
 
+import { setInterview } from "helpers/reducers";
+
 const data = [
   {
     id: 1,
